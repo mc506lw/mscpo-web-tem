@@ -73,18 +73,27 @@ export const SERVER_CONFIG: ServerConfig = {
   staff: [
     {
       name: "Notch",
-      role: "创世神",
-      avatar: "https://ui-avatars.com/api/?name=Notch&background=0D8ABC&color=fff&size=200"
+      role: "服主",
+      description: "世界的缔造者，负责服务器整体架构设计与核心玩法开发。致力于打造最完美的方块世界。",
+      avatar: "https://visage.surgeplay.com/full/832/Notch" 
     },
     {
       name: "Jeb_",
       role: "首席架构师",
-      avatar: "https://ui-avatars.com/api/?name=Jeb&background=random&color=fff&size=200"
+      description: "红石科技与自动化系统的专家。维护服务器的生态平衡，确保每一次更新都带来惊喜。",
+      avatar: "https://visage.surgeplay.com/full/832/Jeb_"
     },
     {
-      name: "Agnes",
-      role: "社区总监",
-      avatar: "https://ui-avatars.com/api/?name=Agnes&background=random&color=fff&size=200"
+      name: "Dinnerbone",
+      role: "技术总监",
+      description: "底层代码优化大师，消除一切 Bug 的存在。为服务器的流畅运行保驾护航。",
+      avatar: "https://visage.surgeplay.com/full/832/Dinnerbone"
+    },
+    {
+      name: "Alex",
+      role: "社区管理员",
+      description: "倾听玩家的声音，举办精彩的社区活动。她是连接管理团队与玩家的桥梁。",
+      avatar: "https://visage.surgeplay.com/full/832/Alex"
     }
   ],
 

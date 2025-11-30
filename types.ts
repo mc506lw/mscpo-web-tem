@@ -39,6 +39,7 @@ export interface StaffMember {
   name: string;
   role: string;
   avatar: string;
+  description: string;
 }
 
 export interface ContactOption {

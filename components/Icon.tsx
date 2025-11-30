@@ -1,8 +1,9 @@
 import React from 'react';
 import * as LucideIcons from 'lucide-react';
 
-interface IconProps extends React.ComponentProps<typeof LucideIcons.Activity> {
+interface IconProps extends React.SVGProps<SVGSVGElement> {
   name: string;
+  size?: string | number;
 }
 
 export const Icon: React.FC<IconProps> = ({ name, ...props }) => {
